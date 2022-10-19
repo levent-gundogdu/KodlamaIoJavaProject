@@ -1,0 +1,10 @@
+package kodlamaIoProject.entities;
+
+public class Teacher {
+	
+	int id;
+	String firstName;
+	String lastName;
+	String title;
+	
+}

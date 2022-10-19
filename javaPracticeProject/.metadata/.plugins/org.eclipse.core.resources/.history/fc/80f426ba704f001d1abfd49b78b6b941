@@ -1,0 +1,18 @@
+package kodlamaIoProject;
+
+import kodlamaIoProject.business.CategoryManager;
+import kodlamaIoProject.dataAccess.HibernateCategoryDao;
+import kodlamaIoProject.entities.Category;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Category category = new Category();
+		
+		CategoryManager categoryManager = new CategoryManager(new HibernateCategoryDao());
+		
+
+	}
+
+}

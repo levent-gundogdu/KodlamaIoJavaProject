@@ -1,0 +1,25 @@
+package kodlamaIoProject.business;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import kodlamaIoProject.dataAccess.CourseDao;
+import kodlamaIoProject.entities.Category;
+import kodlamaIoProject.entities.Course;
+
+public class CourseManager {
+	
+	private CourseDao courseDao;
+	public List<String> courses = new ArrayList<String>();
+
+	public CourseManager(CourseDao courseDao) {
+		this.courseDao = courseDao;
+	}
+	
+	public void add(Course course, Category category, ) {
+		
+		
+		
+	}
+	
+}

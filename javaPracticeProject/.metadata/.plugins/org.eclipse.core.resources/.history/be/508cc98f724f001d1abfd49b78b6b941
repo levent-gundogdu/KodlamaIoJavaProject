@@ -1,0 +1,11 @@
+package kodlamaIoProject.dataAccess;
+
+public class HibernateTeacherDao implements TeacherDao{
+	
+	@Override
+	public void add() {
+		System.out.println("Hibernate ile 'Teachers' veritabanına eklendi.");
+		
+	}
+	
+}

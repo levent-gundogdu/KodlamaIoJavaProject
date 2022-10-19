@@ -1,0 +1,33 @@
+package kodlamaIoProject.business;
+
+import kodlamaIoProject.dataAccess.CategoryDao;
+import kodlamaIoProject.entities.Category;
+
+public class CategoryManager {
+	
+	private CategoryDao categoryDao;
+
+	public CategoryManager(CategoryDao categoryDao) {
+		this.categoryDao = categoryDao;
+	}
+	
+	public void add(Category category) throws Exception {
+		
+		if (category.getName().equals(category)) {
+			throw new Exception("Category name already exists.");
+		}
+		
+		System.out.println("Category added: " + category);
+	}
+	
+	public void update(Category category) {
+		System.out.println("Category updated: " + category);
+	}
+	
+	public void delete(Category category) {
+		System.out.println("Category deleted: " + category);
+	}
+	
+//	categoryDao.add(category);
+	
+}

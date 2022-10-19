@@ -1,0 +1,16 @@
+package kodlamaIoProject.business;
+
+import kodlamaIoProject.dataAccess.CategoryDao;
+
+public class CategoryManager {
+	
+	private CategoryDao categoryDao;
+
+	public CategoryManager(CategoryDao categoryDao) {
+		super();
+		this.categoryDao = categoryDao;
+	}
+	
+	
+	
+}

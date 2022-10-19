@@ -1,0 +1,11 @@
+package kodlamaIoProject.dataAccess;
+
+public class JdbcTeacherDao implements TeacherDao{
+
+	@Override
+	public void add() {
+		System.out.println("Jdbc ile 'Teacher' veritabanına eklendi.");
+		
+	}
+
+}

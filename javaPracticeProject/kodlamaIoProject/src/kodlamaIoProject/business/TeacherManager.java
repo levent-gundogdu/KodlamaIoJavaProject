@@ -1,0 +1,27 @@
+package kodlamaIoProject.business;
+
+import kodlamaIoProject.dataAccess.TeacherDao;
+import kodlamaIoProject.entities.Teacher;
+
+public class TeacherManager {
+	
+	private TeacherDao teacherDao;
+
+	public TeacherManager(TeacherDao teacherDao) {
+		this.teacherDao = teacherDao;
+	}
+
+	public void add(Teacher teacher) throws Exception {
+		teacherDao.add();
+		System.out.println("Teacher added: " + teacher.getFirstName());
+	}
+
+	public void update(Teacher teacher) throws Exception {
+		System.out.println("Teacher updated: " + teacher.getFirstName());
+	}
+	
+	public void delete(Teacher teacher) throws Exception {
+		System.out.println("Teacher deleted: " + teacher.getFirstName());
+	}
+	
+}

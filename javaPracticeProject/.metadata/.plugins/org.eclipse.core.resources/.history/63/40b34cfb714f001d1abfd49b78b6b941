@@ -1,0 +1,52 @@
+package kodlamaIoProject;
+
+import kodlamaIoProject.business.CategoryManager;
+import kodlamaIoProject.business.CourseManager;
+import kodlamaIoProject.business.TeacherManager;
+import kodlamaIoProject.dataAccess.HibernateCategoryDao;
+import kodlamaIoProject.dataAccess.HibernateTeacherDao;
+import kodlamaIoProject.dataAccess.JdbcCourseDao;
+import kodlamaIoProject.entities.Category;
+import kodlamaIoProject.entities.Course;
+import kodlamaIoProject.entities.Teacher;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		
+		Course course1 = new Course();
+		course1.setId(1);
+		course1.setName("C#");
+		course1.setDescription("C# programming with OOP");
+		course1.setPrice(19.99);
+		
+		Course course2 = new Course();
+		course2.setId(1);
+		course2.setName("C#");
+		course2.setDescription("C# programming with OOP");
+		course2.setPrice(19.99);
+		
+		Teacher teacher = new Teacher();
+		teacher.setId(1);
+		teacher.setFirstName("Engin");
+		teacher.setLastName("Demirog");
+		teacher.setTitle("Professor");
+		
+		Category category = new Category();
+		category.setId(1);
+		category.setName("Programming");
+		
+		CourseManager courseManager = new CourseManager(new JdbcCourseDao());
+		courseManager.add(course2);
+		
+		TeacherManager teacherManager = new TeacherManager(new HibernateTeacherDao());
+		teacherManager.add(teacher);
+		
+		CategoryManager categoryManager = new CategoryManager(new HibernateCategoryDao());
+		categoryManager.add(category);
+		
+		
+
+	}
+
+}

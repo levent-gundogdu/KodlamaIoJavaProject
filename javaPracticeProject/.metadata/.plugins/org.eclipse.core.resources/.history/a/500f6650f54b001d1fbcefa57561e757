@@ -1,0 +1,17 @@
+package kodlamaIoProject.business;
+
+import kodlamaIoProject.dataAccess.CourseDao;
+
+public class CourseManager {
+	
+	private CourseDao courseDao;
+
+	public CourseManager(CourseDao courseDao) {
+		this.courseDao = courseDao;
+	}
+	
+	if () {
+		
+	}
+	
+}

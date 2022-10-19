@@ -1,0 +1,10 @@
+package kodlamaIoProject.entities;
+
+public class Course {
+	
+	int id;
+	String name;
+	String description;
+	
+	
+}

@@ -1,0 +1,21 @@
+package kodlamaIoProject;
+
+import kodlamaIoProject.business.CategoryManager;
+import kodlamaIoProject.dataAccess.HibernateCategoryDao;
+import kodlamaIoProject.entities.Category;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Category category = new Category();
+		category.setId(1);
+		category.setName("C#");
+		category.setDescription("C# course with OOP");
+		
+		CategoryManager categoryManager = new CategoryManager(new HibernateCategoryDao());
+		
+
+	}
+
+}

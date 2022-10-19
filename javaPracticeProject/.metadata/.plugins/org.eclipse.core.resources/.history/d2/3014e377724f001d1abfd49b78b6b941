@@ -1,0 +1,11 @@
+package kodlamaIoProject.dataAccess;
+
+public class JdbcCourseDao implements CourseDao{
+	
+	@Override
+	public void add() {
+		System.out.println("Jdbc ile 'Courses' veritabanına eklendi.");
+		
+	}
+	
+}

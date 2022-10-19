@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="kodlamaIoProject.dataAccess.CourseDao"/>
+    <fullyQualifiedTypeName name="java.lang.VerifyError"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.dataAccess.CategoryDao"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.dataAccess.TeacherDao"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.business.CategoryManager"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.dataAccess.HibernateCategoryDao"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.entities.Category"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.entities.Course"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.entities.Teacher"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.business.CourseManager"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.business.TeacherManager"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.dataAccess.JdbcCourseDao"/>
+    <fullyQualifiedTypeName name="kodlamaIoProject.dataAccess.HibernateTeacherDao"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package kodlamaIoProject.business;
+
+import kodlamaIoProject.dataAccess.CategoryDao;
+import kodlamaIoProject.dataAccess.TeacherDao;
+
+public class TeacherManager {
+	
+	private TeacherDao teacherDao;
+
+	public TeacherManager(TeacherDao teacherDao) {
+		this.teacherDao = teacherDao;
+	}
+
+	
+	
+}
